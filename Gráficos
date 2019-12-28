@@ -1,0 +1,7 @@
+%matplotlib inline
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+plt.style.use('ggplot')
+Df = pd.read_csv(r"C:\Users\vgsales.csv")
+Df['Platform'].value_counts().plot()
