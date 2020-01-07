@@ -1,0 +1,7 @@
+%matplotlib inline
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+plt.style.use('ggplot')
+Df=pd.read_excel(r"C:\Users\Loger.xls")
+Df['Item Category'].value_counts()
